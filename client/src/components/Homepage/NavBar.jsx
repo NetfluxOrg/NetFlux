@@ -6,7 +6,7 @@ const TopNavBar = () => {
     <div>
     <ul className={styles.container}>
       <li><a href="Trending">Home</a></li>
-      <li><a href="Categories">About</a></li>
+      <li><a href="Categorie">About</a></li>
       <li>SearchBar</li>
     </ul>
   </div>
