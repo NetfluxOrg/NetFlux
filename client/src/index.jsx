@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
-import axios from 'axios'
+
+
+import HomePage from './components/Homepage/Homepage.jsx'
 
 
 
@@ -11,10 +13,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
-        <h1> BOILER PLATE</h1>
-           </div>
-
+      <HomePage />
       )
   }
 }
