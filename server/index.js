@@ -11,11 +11,7 @@ const PORT =4000;
 
 
 app.post('/quote', function (req, res) {
-    fetch('https://type.fit/api/quotes')
-    .then((data) => {
-       console.log(data)
-    })
-    res.send('data')
+ 
   })
 
 
