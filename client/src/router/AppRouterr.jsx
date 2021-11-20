@@ -1,12 +1,12 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Login from '../components/mainScreen/startPage.jsx'
+import TopNavBar from '../components/Homepage/NavBar.jsx'
 
 const AppRouter = () => (
     <BrowserRouter>
       <div>
         <Switch>
-          <Route component={Login} path="/" exact={true} />
+          <Route component={TopNavBar} path="/" exact={true} />
         </Switch>
       </div>
     </BrowserRouter>
