@@ -11,6 +11,8 @@
   "dependencies": {
     "@babel/runtime": "^7.15.4",
     "buffer": "^6.0.3",
+    "firebase": "^9.5.0",
+    "firebaseui": "^6.0.0",
     "jquery": "^3.6.0",
     "mysql": "^2.18.1",
     "nodemon": "^2.0.13",

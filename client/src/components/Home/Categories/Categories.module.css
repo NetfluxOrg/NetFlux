@@ -1,0 +1,14 @@
+.container {
+  height: 400px;
+  width: 80%;
+  display: flex;
+  margin-top: 100px;
+  margin-left: 50px;
+  background-color: hotpink;
+  color: yellow;
+  font-size: 50px;
+  border-style: dotted;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
