@@ -18,12 +18,13 @@
   margin-top: 100px;
   margin-left: 50px;
   background-color: hotpink;
-  color: #fff;
+  color: yellow;
+  font-size: 50px;
   border-style: dotted;
   display: inline-flex;
-  object-fit: contain;
   justify-content: center;
   align-items: center;
-
   background-image: url("https://m.media-amazon.com/images/I/610fuvWAaqL._AC_SL1039_.jpg");
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
 }

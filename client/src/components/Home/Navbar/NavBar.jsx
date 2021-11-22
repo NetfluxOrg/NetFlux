@@ -1,9 +1,9 @@
 import React, { Fragment } from "react";
 import styles from "./NavBar.module.css"
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import Trending from '../TrendingList.jsx'
-import Categories from '../Categories.jsx'
-import Profile from '../Profile.jsx'
+import Trending from '../Trending/TrendingList.jsx'
+import Categories from '../Categories/Categories.jsx'
+import Profile from '../Profile/Profile.jsx'
 import HomePage from '../HomePage/Homepage.jsx'
 
 
