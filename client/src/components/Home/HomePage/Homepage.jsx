@@ -1,6 +1,7 @@
 import React from 'react';
 import TopNavBar from '../Navbar/NavBar.jsx'
 import SearchBar from '../SearchBar/SearchBar.jsx'
+import Chat from '../../Chat/Chat.jsx'
 import styles from './HomePage.module.css'
 
 class HomePage extends React.Component {
@@ -17,14 +18,17 @@ class HomePage extends React.Component {
   render() {
     return (
         <div>
-                <h1> <TopNavBar /> </h1>
+
+          <div className={styles.topbar}>
+            <h1> <TopNavBar /> </h1>
             <h1> <SearchBar /> </h1>
+          </div>
 
 
 
 {/* hardcoded for now, built map function here on movies rettrieved */}
 
-<div className={styles.title}> Trending {this.state.name} </div>
+<div className={styles.title}> Trending for {this.state.name} </div>
   <div class={styles.box}>
       Movie #1
   </div>
@@ -35,7 +39,7 @@ class HomePage extends React.Component {
       Movie #3
   </div>
 
-  <div className={styles.title}> Recommended {this.state.name} </div>
+  <div className={styles.title}> Recommended for {this.state.name} </div>
   <div class={styles.box}>
       Movie #1
   </div>
@@ -46,6 +50,7 @@ class HomePage extends React.Component {
       Movie #3
   </div>
 
+      <Chat />
         </div>
       )
   }
