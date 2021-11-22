@@ -1,8 +1,5 @@
 import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
-
-
-import HomePage from './components/Homepage/Homepage.jsx'
 import Authentication from './components/Login/Authentication.jsx'
 
 
@@ -35,9 +32,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <HomePage />
         <Authentication addUserState={this.addUserState.bind(this)}/>
-
       </div>
       )
   }

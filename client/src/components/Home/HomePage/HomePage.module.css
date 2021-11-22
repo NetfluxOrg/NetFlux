@@ -1,0 +1,16 @@
+.title {
+  margin-top: 50px;
+  margin-bottom: -100px;
+}
+.box {
+  height: 400px;
+  width: 400px;
+  margin-top: 100px;
+  margin-left: 50px;
+  background-color: hotpink;
+  color: #fff;
+  border-style: dotted;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}

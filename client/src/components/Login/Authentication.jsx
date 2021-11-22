@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import firebase from '../../../../firebase/index.js';
 import Login from './Login.jsx';
 import LoginSuccess from './LoginSuccess.jsx';
+import HomePage from '../Home/HomePage/Homepage.jsx'
 
 export default function Authentication(props) {
   const [user, setUser] = useState(null);
@@ -18,11 +19,11 @@ export default function Authentication(props) {
         const userId = user.multiFactor.user.uid;
         const userData = {task: 'signin', username: username, email: email, userPhoto: userPhoto, userId: userId};
         props.addUserState(userData);
-
       }
     });
   }, []);
 
+      <HomePage user={user} />
   return (
         <div id="firebaseui-auth-container">
           {user ? <LoginSuccess user={user} signOut={props}/> : <Login signing={useEffect}/>}

@@ -1,0 +1,35 @@
+#menuouter {
+  height: 84px;
+}
+
+.table {
+  display: table; /* Allow the centering to work */
+  margin: 0 auto;
+}
+
+ul#horizontallist {
+  min-width: 696px;
+  list-style: none;
+  padding-top: 20px;
+}
+ul#horizontallist li {
+  display: inline;
+  margin: 21px 22px 21px 22px;
+}
+
+.title {
+  margin-top: 50px;
+  margin-bottom: -100px;
+}
+.box {
+  height: 400px;
+  width: 400px;
+  margin-top: 100px;
+  margin-left: 50px;
+  background-color: hotpink;
+  color: #fff;
+  border-style: dotted;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
